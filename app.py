@@ -12,7 +12,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # 1. Vectorise the sales response csv data
-loader = TextLoader(file_path="article1.txt")
+loader = TextLoader(file_path="article.txt")
 article = loader.load()
 
 embeddings = OpenAIEmbeddings()
